@@ -1,0 +1,7 @@
+Djikstra Algorithm 
+We don't need to use Google Maps API using (just dapatkan location dia) Djikstra algo sebab dia dah guna djikstra dalam tu.
+
+Progress
+- Cuba plot and see the diff between using geopy and google API
+	*The idea is to plot every directions & put big marker to each of our destinations and calculate distance for each other and the program will calculate with is the minimum path using Djikstra
+		*use google maps to get the edges

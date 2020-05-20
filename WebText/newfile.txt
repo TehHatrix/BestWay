@@ -1,0 +1,37 @@
+ stop words 
+ kavita ganesan     text mining concepts 
+ working text mining applications often hear term stop words stop word list even stop list stop words basically set commonly used words language just english 
+
+ reason stop words critical many applications remove words commonly used given language can focus important words instead example context search engine search query develop information retrieval applications search engine tries find web pages contained terms develop information retrieval applications search engine going find lot pages contain terms pages contain information developing information retrieval applications terms commonly used english language disregard two terms search engine can actually focus retrieving pages contain keywords develop information retrieval applications  bring pages actually interest just basic intuition using stop words 
+
+ stop words can used whole range tasks 
+
+ supervised machine learning  removing stop words feature space 
+ clustering  removing stop words prior generating clusters 
+ information retrieval  preventing stop words indexed 
+ text summarization excluding stop words contributing summarization scores  removing stop words computing rouge scores 
+ types stop words 
+ stop words generally thought single set words really can mean different things different applications example applications removing stop words right determiners eg prepositions eg across adjectives eg good nice can appropriate stop word list applications however can detrimental instance sentiment analysis removing adjective terms good nice well negations can throw algorithms tracks cases one can choose use minimal stop list consisting just determiners determiners prepositions just coordinating conjunctions depending needs applicationexamples minimal stop word lists can use 
+
+ determiners  determiners tend mark nouns determiner usually will followed noun 
+ examples another 
+ coordinating conjunctions  coordinating conjunctions connect words phrases clauses 
+ examples yet 
+ prepositions  prepositions express temporal spatial relations 
+ examples towards 
+ domain specific cases clinical texts may want whole different set stop words example terms like mcg dr patient may less discriminating power building intelligent applications compared terms heart failure diabetes cases can also construct domain specific stop words opposed using published stop word list 
+
+ stop phrases 
+ stop phrases just like stop words just instead removing individual words exclude phrases example phrase good item appears frequently text low discriminating power results unwanted behavior results one may choose add phrases stop phrases certainly possible construct stop phrases way construct stop words example can treat phrases low occurrence corpora stop phrases similarly can consider phrases occur almost every document corpora stop phrase 
+
+ published stop word lists 
+
+
+ want use stop words lists published use 
+
+ snowball stop word list  stop word list published snowball stemmer 
+ terrier stop word list  pretty comprehensive stop word list published terrier package 
+ minimal stop word list  stop word list compiled consisting determiners coordinating conjunctions prepositions 
+ construct stop word list  article basically outlines automatic method constructing stop word list specific data set eg tweets clinical texts etc 
+ constructing domain specific stop word lists 
+ fairly  use published set stop words many cases using stop words completely insufficient certain applications example clinical texts terms like mcg dr patient occur almost every document come across terms may regarded potential stop words clinical text mining retrieval similarly tweets terms like  rt username can potentially regarded stop words common language specific stop word list generally cover domain specific terms article wrote talks construct domain specific stop word lists 
